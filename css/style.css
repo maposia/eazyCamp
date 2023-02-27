@@ -1,0 +1,235 @@
+@import url(/css/reset.css);
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  color: #000000;
+  background-color: #fff;
+}
+
+.header {
+  background-image: url(/img/header_cover.jpg);
+  background-repeat: no-repeat;
+  height: 650px;
+  background-size: cover;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.header__info {
+  position: absolute;
+  left: 63px;
+  bottom: -110px;
+  max-width: 523px;
+  padding: 96px 156px 75px 62px;
+  background-color: #fff;
+  box-shadow: 0 4px 100px hsla(0, 0%, 0%, 0.1);
+}
+.header__info_title {
+  margin-bottom: 29px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 49px;
+}
+.header__info_text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  opacity: 0.6;
+  padding: 0;
+  margin-bottom: 29px;
+}
+.header__info_link > span {
+  vertical-align: middle;
+  padding-left: 4px;
+}
+.header__info_link-icon {
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.login__button {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 26.5px;
+}
+.login__arrow {
+  padding: 0 8px 0 20px;
+}
+.login__icon {
+  padding: 10px 14px 10px 0;
+}
+
+.button > a {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 125%;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f78065;
+  padding: 20.5px 77px 20.5px 69px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.button > a:hover {
+  background-color: #fb5f3c;
+}
+
+.about {
+  margin-top: 399px;
+}
+.about__list {
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+  align-items: flex-start;
+}
+.about__item {
+  flex-basis: 386px;
+}
+.about__img {
+  max-height: 180px;
+  margin-bottom: 84px;
+}
+.about__header {
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.about__text {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.about__text + .about__text {
+  font-weight: 700;
+  font-style: 18px;
+  line-height: 22px;
+  color: #F78065;
+}
+
+.benefits__title {
+  margin-top: 253px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+}
+.benefits__list {
+  margin-top: 108px;
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+}
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 265px;
+}
+.benefits__img {
+  width: 32px;
+  height: 32px;
+}
+.benefits__subtitle {
+  margin-top: 64px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: "Merriweather", serif;
+}
+.benefits__text {
+  margin-top: 31px;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 14px;
+  opacity: 0.5;
+  display: inline-block;
+  height: 72px;
+}
+.benefits__link {
+  display: inline-block;
+  margin-top: 16px;
+  color: #F78065;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  vertical-align: bottom;
+}
+
+.container_wide {
+  max-width: 1218px;
+}
+
+.community__wrapper {
+  display: flex;
+}
+.community__join {
+  max-width: 325px;
+  margin-right: 127px;
+}
+.community__title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+}
+.community__discription {
+  margin-top: 32px;
+  font-size: 18px;
+  line-height: 22px;
+  opacity: 0.5;
+}
+.community__button {
+  margin-top: 48px;
+}
+.community__start-icon {
+  margin-right: 10px;
+}
+.community__list {
+  display: flex;
+}
+.community__item + .community__item {
+  margin-left: 49px;
+}
+.community__subtitle {
+  margin-top: 24px;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.community__city {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3F3D56;
+  display: block;
+}
+.community__link {
+  margin-top: 11px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #F78065;
+  display: block;
+}
+
+.container_wide-xl {
+  margin-top: 263px;
+  max-width: 1220px;
+}
