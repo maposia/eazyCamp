@@ -372,3 +372,177 @@ body {
 }
 
 
+.advantage {
+
+    // .advantage__header
+
+    &__header {
+        margin-top: 232px;
+    }
+
+    // .advantage__list
+
+    &__list {
+    }
+
+    // .advantage__item
+
+    &__item {
+        flex-basis: 386px;
+    }
+
+    // .advantage__img
+
+    &__img {
+    }
+
+    // .advantage__subheader
+
+    &__subtitle {
+        min-height: 56px;
+    }
+
+    // .advantage__text
+
+    &__text {
+        margin-top: 52px;
+
+    }
+}
+
+.footer {
+        margin-top: 251px;
+    // .footer__wrapper
+    &_gray {
+        background-color: #F7F7F7;
+    }
+
+    &__wrapper {
+        padding-top: 96px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    // .footer__tagline
+
+    &__tagline {
+        max-width: 304px;
+        margin-right: 157px;
+
+    }
+
+    // .footer__logo
+
+    &__logo {
+        font-family: $headerFont;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+
+
+    }
+
+    // .footer__slogan
+
+    &__slogan {
+        font-family: $headerFont;
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: 700;
+
+
+    }
+
+    // .footer__nav
+    &__menu-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width:766px;
+    }
+
+    &__nav {
+
+    }
+
+    // .footer__menu-title
+
+    &__menu-title {
+        font-family: $headerFont;
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: 700;
+
+    }
+
+    // .footer__menu
+
+    &__menu {
+    }
+
+    // .footer__item
+
+    &__item {
+        list-style-type: none;
+    }
+
+    // .footer__menu-link
+
+    &__menu-link {
+        display: block;
+        margin-top: 24px;
+        line-height: 17px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #000000;
+        font-weight: 400;
+
+
+    }
+
+    // .footer__devider
+
+    &__devider {
+        border-bottom: 1px solid rgb(0, 0, 0);
+        opacity: 0.2;
+        width: 100%;
+        margin-top: 84.5px;
+        margin-bottom: 28.5px;
+
+    }
+
+    // .footer__copyright
+
+    &__copyright {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 63px;
+    }
+
+    // .footer__copyright-text
+
+    &__copyright-text {
+    }
+
+    // .footer__copyright-nav
+
+    &__copyright-nav {
+        display: flex;
+        gap: 48px;
+        align-items: center;
+    }
+
+    // .footer__copyright-item
+
+    &__copyright-item {
+    }
+
+    // .footer__copyright-link
+
+    &__copyright-link {
+        margin: 0;
+
+    }
+}
+
